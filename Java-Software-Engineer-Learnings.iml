@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/02-First-Java-Program" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/03-Taking-Input-Scanner" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/04-Data-Types" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/05-Type-Conversion-and-Casting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/06-Conditionals-and-Loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/07-Methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/08-Scoping" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/09-Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/10-ArrayList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/11-Strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/12-StringBuilder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java-Basics/13-StringBuffer" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
