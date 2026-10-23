@@ -1,647 +1,239 @@
-<div align="center">
+# ☕ Java Software Engineer
 
-# ☕ Java Software Engineer Learnings
-
-**From Programming Fundamentals to Production-Ready Backend Development**
+**My Learning Journey — From Java Fundamentals to Backend Engineering and Production-Ready Systems**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Backend](https://img.shields.io/badge/Backend-Engineering-00D9FF?style=for-the-badge)
-
-</div>
-
----
-
-# 🎯 Learning Goal
-
-This repository documents my journey toward becoming a **Java Backend Developer**.
-
-The roadmap starts with **Programming Fundamentals**, where I will build my foundation in **Java, problem-solving, and Data Structures & Algorithms**.
-
-After building this foundation, I will progress through the broader backend engineering topics required to become a production-ready backend engineer.
+![Backend Engineering](https://img.shields.io/badge/Backend-Engineering-0A66C2?style=for-the-badge)
+![DSA](https://img.shields.io/badge/DSA-Learning-6C3483?style=for-the-badge)
+![Status](https://img.shields.io/badge/Learning-In%20Progress-orange?style=for-the-badge)
 
 ---
 
-# 🧩 Programming Fundamentals
+## 🎯 Learning Objective
 
-Programming Fundamentals is the foundation of this learning journey.
+This repository documents my journey toward becoming a **Java Software Engineer**, with a strong foundation in programming, Data Structures and Algorithms (DSA), backend development, system design, and production engineering.
 
-This phase is divided into **6 Sprints**, covering **Programming and Data Structures & Algorithms**.
+My learning path follows this progression:
 
-| Sprint | Status |
-|:---:|:---:|
-| **Sprint 1** | ⬜ Not Completed |
-| **Sprint 2** | ⬜ Not Completed |
-| **Sprint 3** | ⬜ Not Completed |
-| **Sprint 4** | ⬜ Not Completed |
-| **Sprint 5** | ⬜ Not Completed |
-| **Sprint 6** | ⬜ Not Completed |
+1. **Java Programming Fundamentals** — Build a strong foundation in Java.
+2. **Data Structures and Algorithms** — Develop problem-solving and algorithmic thinking.
+3. **Computer Science Fundamentals** — Understand operating systems, networking, and memory management.
+4. **Java Backend Development** — Learn JDBC, Spring Boot, and backend engineering.
+5. **Advanced Backend Concepts** — Explore asynchronous processing, caching, API design, and system design.
+6. **DevOps and Cloud** — Learn deployment, infrastructure, containers, and cloud services.
 
-> **Sprint 1 is the current sprint.**
+The goal is to understand concepts deeply, write clean and maintainable code, solve problems independently, and develop reliable backend applications.
 
 ---
 
-# 🏁 Sprint 1 — Programming Fundamentals
+# 1. ☕ Java Programming Fundamentals
 
-Sprint 1 focuses on building the initial programming and problem-solving foundation using **Java**.
+This phase builds the foundation required for Java development and future backend engineering.
 
-### Sprint 1 Focus
+**Progress:** 9 of 14 topics completed.
 
-- Programming Fundamentals
-- Problem Solving
-- Flowcharts
-- Pseudocode
-- Dry Runs
-- Edge Cases
-- Debugging
-- Java Fundamentals
-- Programming Patterns
-- Time and Space Complexity
-- Java Collections
-- Basic Mathematics
-- Arrays
-- Hashing
-- Strings
-- Recursion
-- Sorting
+- [x] Introduction and Syntax
+- [x] Data Types
+- [x] Type Conversion and Type Casting
+- [x] Conditions and Loops
+- [x] Methods
+- [x] Arrays and ArrayList
+- [x] Strings, StringBuilder and StringBuffer
+- [x] Object-Oriented Programming (OOP)
+- [ ] File Handling
+- [ ] Collections Framework
+- [ ] Stream API (Java)
+- [ ] Threads (Java)
+- [ ] Internals of Java
+- [x] Generics
 
-### Sprint 1 Progress
+### Learning Goal
 
-| Day | Focus | Status |
-|:---:|:---|:---:|
-| **Day 1** | Programming Fundamentals | ⬜ Not Completed |
-| **Day 2** | Java & Programming Patterns | ⬜ Not Completed |
-| **Day 3** | Patterns & Complexity | ⬜ Not Completed |
-| **Day 4** | Basic Mathematics | ⬜ Not Completed |
-| **Day 5** | Arrays & Basic Problems | ⬜ Not Completed |
-| **Day 6** | Strings, Recursion & Sorting | ⬜ Not Completed |
-| **Day 7** | Sorting & Arrays | ⬜ Not Completed |
-
-**Sprint 1:** ⬜ **Not Completed**
+- Understand Java syntax and core language features.
+- Write programs using appropriate data types and control flow.
+- Apply object-oriented programming principles.
+- Work with arrays, strings, collections, and generics.
+- Understand Java execution, concurrency, and internal mechanisms.
 
 ---
 
-# 📚 Sprint 1 — Detailed Topics
+# 2. 🧠 Data Structures and Algorithms (DSA)
 
-## Day 1 — Programming Fundamentals
+DSA is an essential part of my software engineering learning journey. This phase focuses on improving problem-solving skills, algorithmic thinking, and the ability to select efficient solutions.
 
-- Breaking The Myth
-- Programming and What Are Computers?
-- How to Think Like a Programmer
-- Flowcharts and Pseudocode
-- Flowchart Problem-Solving
-- Dry Runs, Edge Cases and Debugging
-- Programming Languages and Choosing a Path
+**Status:** In progress — detailed topics will be added as I provide them.
 
-**Status:** ⬜ Not Completed
+### Learning Approach
 
----
+- Understand the problem before coding.
+- Start with a straightforward solution.
+- Identify suitable data structures and algorithms.
+- Improve the solution when possible.
+- Analyse time and space complexity.
+- Test edge cases.
+- Practise solving problems independently.
+- Revisit difficult problems and strengthen understanding.
 
-## Day 2 — Java & Programming Patterns
+### DSA Progress
 
-- Learn Java
-- Java Fundamentals
-- Easy and Medium Problems
-- Hard Problems
-- Pattern 1
-- Pattern 2
-- Pattern 3
-- Pattern 4
-- Pattern 5
-- Pattern 6
-- Pattern 7
-- Pattern 8
-- Pattern 9
-- Pattern 10
-- Pattern 11
-- Pattern 12
-- Pattern 13
-- Pattern 14
-- Pattern 15
-- Pattern 16
-- Pattern 17
-- Pattern 18
-
-**Status:** ⬜ Not Completed
+The detailed topic checklist will be maintained here once the topics are provided. No DSA topics are marked completed in advance.
 
 ---
 
-## Day 3 — Patterns & Complexity
+# 3. 🖥️ Computer Science Fundamentals
 
-- Pattern 19
-- Pattern 20
-- Pattern 21
-- Pattern 22
-- Time and Space Complexity
-- Java Collections
+These concepts help me understand what happens behind the code and how applications execute.
 
-**Status:** ⬜ Not Completed
+- [ ] Operating Systems
+- [ ] Computer Networks
+- [ ] Memory Management
+- [ ] Asynchronous Programming
 
----
+### Learning Goal
 
-## Day 4 — Basic Mathematics
-
-- Basic Maths
-
-**Status:** ⬜ Not Completed
+Build a solid understanding of processes, threads, memory, networking, concurrency, and asynchronous execution.
 
 ---
 
-## Day 5 — Arrays & Basic Problems
+# 4. 🔧 Java Backend Development
 
-- Basic Arrays
-- Basic Hashing
-- Basic String
-- Count all Digits of a Number
-- Count Number of Odd Digits in a Number
-- Reverse a Number
-- Palindrome Number
-- Return the Largest Digit in a Number
-- Factorial of a Given Number
-- Check if the Number is Armstrong
-- Check for Perfect Number
-- Check for Prime Number
-- Count of Prime Numbers till N
-- GCD of Two Numbers
-- LCM of Two Numbers
-- Divisors of a Number
-- Sum of Array Elements
-- Count of Odd Numbers in Array
-- Check if the Array is Sorted
-- Reverse an Array
-- Highest Occurring Element in an Array
-- Second Highest Occurring Element
+## 4.1 Java Foundation Before Frameworks
 
-**Status:** ⬜ Not Completed
+Before moving into backend frameworks, I will learn the tools and concepts needed to work with Java applications.
+
+- [ ] JDBC — Java Database Connectivity
+- [ ] Java Spring Boot
+
+### Supporting Tools and Concepts
+
+- [ ] Maven — Build and Dependency Management
+- [ ] JUnit — Unit Testing
+
+### Learning Goal
+
+Understand database connectivity, application structure, dependency management, and testing before building larger backend applications.
 
 ---
 
-## Day 6 — Strings, Recursion & Sorting
+## 4.2 Spring Boot and Backend Engineering
 
-- Sum of Highest and Lowest Frequency
-- Reverse a String II
-- Palindrome Check
-- Largest Odd Number in a String
-- Longest Common Prefix
-- Isomorphic Strings
-- Rotate String
-- Valid Anagram
-- Sort Characters by Frequency
-- Recursion Theory
-- Recursion Concepts with Parameters
-- Sum of First N Numbers
-- Factorial of a Given Number
-- Sum of Array Elements II
-- Reverse a String I
-- Check if String is Palindrome or Not
-- Check if a Number is Prime or Not
-- Reverse an Array II
-- Check if the Array is Sorted II
-- Sum of Digits in a Given Number
-- Fibonacci Number
-- Selection Sort
-- Bubble Sort
-- Insertion Sort
+After learning the Java and Spring Boot foundations, I will focus on building backend applications and understanding their architecture.
 
-**Status:** ⬜ Not Completed
+### Topics
+
+- [ ] Asynchronous Processing
+- [ ] Kafka — Event Streaming and Messaging
+- [ ] Caching
+- [ ] Redis — In-Memory Data Store and Caching
+
+### Learning Goal
+
+Understand how backend applications process tasks asynchronously, communicate through messaging systems, and improve performance using caching.
 
 ---
 
-## Day 7 — Sorting & Arrays
+# 5. 🌐 Backend Engineering Concepts
 
-- Merge Sort
-- Quick Sort
-- Largest Element
-- Second Largest Element
-- Maximum Consecutive Ones
-- Left Rotate Array by One
-- Left Rotate Array by K Places
-- Move Zeros to End
-- Remove Duplicates from Sorted Array
-- Find Missing Number
-- Union of Two Sorted Arrays
-- Intersection of Two Sorted Arrays
-- Majority Element-I
-- Leaders in an Array
-- Rearrange Array Elements by Sign
-- Array Problems & Practice
+These topics help me understand how applications communicate, how APIs should be designed, and how larger systems are structured.
 
-**Status:** ⬜ Not Completed
+- [ ] HTTP and Networking
+- [ ] REST API Design
+- [ ] System Design
 
----
+### HTTP and Networking
 
-# 🧠 Sprint 1 Learning Approach
+Understand HTTP requests and responses, methods, status codes, headers, HTTPS, and the networking concepts needed for backend development.
 
-For every problem:
+### REST API Design
 
-### 1. Understand
+Learn resource-based API design, request and response structures, error handling, API validation, and maintainable endpoint design.
 
-Understand the problem before writing code.
+### System Design
 
-### 2. Brute Force
-
-Try the simplest possible solution first.
-
-### 3. Identify the Pattern
-
-Understand the underlying programming or DSA pattern.
-
-### 4. Handle Edge Cases
-
-Consider:
-
-- Empty input
-- Single element
-- Duplicate values
-- Already sorted input
-- Negative numbers
-- Boundary values
-
-### 5. Analyse Complexity
-
-```text
-Time Complexity: O(?)
-Space Complexity: O(?)
-```
-
-### 6. Re-solve
-
-For difficult problems, return later and solve them again from a blank file.
+Learn how to reason about scalability, reliability, availability, performance, caching, load balancing, databases, and distributed systems.
 
 ---
 
-# 📝 Sprint 1 Principles
+# 6. ⚙️ DevOps and Engineering Tools
 
-- **Understand before memorising**
-- **Pattern > problem count**
-- **Brute force first, optimise later**
-- **Always consider edge cases**
-- **Know the time and space complexity**
-- **Re-solve difficult problems**
-- **Write clean and readable Java**
-- **Focus on problem-solving, not just syntax**
+Version control, automation, containers, and operating-system tools are important for developing and deploying real-world applications.
 
----
+- [ ] Git
+- [ ] GitHub
+- [ ] CI/CD
+- [ ] Docker
+- [ ] Kubernetes
+- [ ] Linux
 
-# 🚀 Backend Engineering Roadmap
+### Learning Goal
 
-After building the Programming Fundamentals foundation, the broader learning path covers the following backend engineering areas.
-
----
-
-## Stage 1: Programming Fundamentals
-
-Before learning backend frameworks, build a strong programming foundation.
-
-### Topics to master
-
-- Variables and Data Types
-- Functions
-- Object-Oriented Programming (OOP)
-- Collections and Data Structures
-- Exception Handling
-- Generics
-- File Handling
-- Memory Management
-- Multithreading Basics
-- Asynchronous Programming
-
-**Status:** ⬜ Not Completed
+- Track code changes with Git.
+- Maintain projects and collaborate through GitHub.
+- Understand automated build, test, and deployment pipelines.
+- Package applications using Docker.
+- Learn container orchestration with Kubernetes.
+- Use Linux commands and understand the environment in which applications run.
 
 ---
 
-## Stage 2: HTTP & Networking
+# 7. ☁️ Cloud Computing
 
-Every backend application communicates over HTTP.
+## AWS — Amazon Web Services
 
-### Learn
+- [ ] AWS Fundamentals
+- [ ] Cloud Infrastructure and Services
+- [ ] Application Deployment
+- [ ] Cloud Operations and Monitoring
 
-- HTTP Request & Response
-- HTTP Methods
-  - GET
-  - POST
-  - PUT
-  - PATCH
-  - DELETE
-- Status Codes
-- Headers
-- Cookies
-- Sessions
-- CORS
-- HTTPS & TLS
-- DNS Basics
-- TCP/IP Fundamentals
+### Learning Goal
 
-**Status:** ⬜ Not Completed
-
-### Interview Tip
-
-Most backend interview questions eventually relate back to HTTP fundamentals.
+Understand cloud infrastructure and learn how to deploy, operate, and monitor backend applications in a cloud environment.
 
 ---
 
-## Stage 3: REST API Design
+# 📊 Overall Learning Progress
 
-A well-designed API is predictable and easy to consume.
-
-### Learn
-
-- REST Principles
-- Resource-Based URLs
-- Request & Response Design
-- Pagination
-- Filtering
-- Sorting
-- Searching
-- API Versioning
-- Idempotency
-- Error Handling
-- OpenAPI / Swagger Documentation
-
-**Status:** ⬜ Not Completed
+| Learning Area | Status |
+|---|---|
+| Java Programming Fundamentals | In Progress |
+| Data Structures and Algorithms | In Progress |
+| Computer Science Fundamentals | Not Completed |
+| Java Backend Development | Not Completed |
+| Backend Engineering Concepts | Not Completed |
+| DevOps and Engineering Tools | Not Completed |
+| Cloud Computing — AWS | Not Completed |
 
 ---
 
-## Stage 4: Databases
+# 📝 My Learning Principles
 
-Backend engineers spend a significant amount of time working with data.
-
-### SQL
-
-- SELECT
-- JOIN
-- GROUP BY
-- HAVING
-- Indexes
-- Transactions
-- Views
-- Stored Procedures
-- Query Optimization
-- Execution Plans
-
-### NoSQL
-
-- Document Databases
-- Key-Value Stores
-- Column-Based Databases
-- Graph Databases
-
-**Status:** ⬜ Not Completed
-
-### Goal
-
-Understand when SQL or NoSQL is the right choice.
+- **Fundamentals first:** Understand concepts before depending on frameworks.
+- **Practice consistently:** Write code and solve problems regularly.
+- **Understand, don't memorise:** Focus on why a solution works.
+- **Write clean code:** Prioritise readability and maintainability.
+- **Think about complexity:** Consider time and space efficiency.
+- **Build progressively:** Strengthen Java before moving to advanced backend concepts.
+- **Learn through implementation:** Apply concepts in practical projects.
+- **Understand production:** Consider security, performance, reliability, and maintainability.
 
 ---
 
-## Stage 5: Authentication & Security
+# 🚀 Final Goal
 
-Every production application must be secure.
+My goal is to become a **Java Software Engineer** who can solve programming problems, design and build backend applications, work with databases and APIs, understand system architecture, and deploy applications to production environments.
 
-### Learn
+I will progress step by step, strengthening each foundation before moving to the next stage.
 
-- Authentication
-- Authorization
-- JWT
-- OAuth 2.0
-- OpenID Connect
-- API Keys
-- Password Hashing
-- HTTPS
-- SQL Injection Prevention
-- XSS
-- CSRF
-- Rate Limiting
-- Secure Headers
-- Secrets Management
-
-**Status:** ⬜ Not Completed
-
----
-
-## Stage 6: Caching
-
-Caching reduces latency and improves scalability.
-
-### Learn
-
-- In-Memory Caching
-- Distributed Caching
-- Redis
-- Cache Invalidation
-- Cache Aside Pattern
-- Read Through Cache
-- Write Through Cache
-- TTL (Time-To-Live)
-
-**Status:** ⬜ Not Completed
-
----
-
-## Stage 7: Asynchronous Processing
-
-Not every task should run during an HTTP request.
-
-### Learn
-
-- Background Jobs
-- Message Queues
-- RabbitMQ
-- Kafka
-- Event-Driven Architecture
-- Retry Policies
-- Dead Letter Queues
-- Eventual Consistency
-
-**Status:** ⬜ Not Completed
-
----
-
-## Stage 8: System Design
-
-This is where backend engineering moves beyond writing code.
-
-### Learn
-
-- Scalability
-- Load Balancers
-- Reverse Proxies
-- Database Replication
-- Sharding
-- Caching Strategies
-- CDN
-- CAP Theorem
-- Consistent Hashing
-- Microservices
-- Service Discovery
-- API Gateway
-- Circuit Breaker
-- CQRS
-- Saga Pattern
-
-**Status:** ⬜ Not Completed
-
-### Principle
-
-Learn to explain the trade-offs behind your design decisions.
-
----
-
-## Stage 9: Performance Optimization
-
-Writing code that works is not enough.
-
-### Learn
-
-- Database Indexing
-- Connection Pooling
-- Query Optimization
-- Compression
-- Lazy Loading
-- Batch Processing
-- Pagination
-- Async I/O
-- Profiling
-- Benchmarking
-
-**Status:** ⬜ Not Completed
-
-### Principle
-
-Measure performance before optimizing.
-
----
-
-## Stage 10: Debugging & Observability
-
-Backend engineers spend a significant amount of time debugging production systems.
-
-### Learn
-
-- Browser DevTools
-- API Testing
-- Server Logs
-- Structured Logging
-- Correlation IDs
-- Distributed Tracing
-- Metrics
-- Monitoring
-- Root Cause Analysis
-
-### Tools
-
-- Grafana
-- Prometheus
-- Datadog
-- New Relic
-- AWS CloudWatch
-- Azure Monitor
-
-**Status:** ⬜ Not Completed
-
----
-
-## Stage 11: DevOps Fundamentals
-
-Modern backend engineers should understand deployment and infrastructure.
-
-### Learn
-
-- Git
-- GitHub
-- CI/CD Pipelines
-- Docker
-- Kubernetes Basics
-- Nginx
-- Linux Commands
-- Environment Variables
-- Reverse Proxy
-- Cloud Platforms
-  - AWS
-  - Azure
-  - GCP
-
-**Status:** ⬜ Not Completed
-
-### Principle
-
-You don't need to be a DevOps engineer, but you should understand how your application reaches production.
-
----
-
-## Stage 12: Production Mindset
-
-Senior backend engineers think beyond code.
-
-Before shipping any feature, ask:
-
-- Is it secure?
-- Is it scalable?
-- Is it observable?
-- Can it handle failures?
-- Is it testable?
-- Is it maintainable?
-- Can it support future growth?
-
-**Status:** ⬜ Not Completed
-
-### Goal
-
-Balance functionality, reliability, security, scalability, maintainability, and operational excellence.
-
----
-
-# 🎤 Interview Preparation Checklist
-
-- ⬜ HTTP Fundamentals
-- ⬜ REST API Design
-- ⬜ Authentication & Authorization
-- ⬜ SQL & Database Design
-- ⬜ Caching
-- ⬜ Redis
-- ⬜ Message Queues
-- ⬜ Design Patterns
-- ⬜ Microservices
-- ⬜ System Design
-- ⬜ API Security
-- ⬜ Docker
-- ⬜ Git
-- ⬜ CI/CD
-- ⬜ Production Debugging
-- ⬜ Performance Optimization
-
----
-
-# 💭 Final Thoughts
-
-Backend engineering is a journey of continuous learning.
-
-I will start by building a strong foundation in **Java Programming and Data Structures & Algorithms** through the **6 Programming Fundamentals Sprints**.
-
-From there, I will gradually build knowledge in **HTTP and networking, REST API design, databases, authentication and security, caching, asynchronous processing, system design, performance optimization, observability, DevOps, and production engineering**.
-
-The goal is not to learn the maximum number of frameworks.
-
-The goal is to become an engineer who can:
-
-- Solve real-world problems
-- Write clean and maintainable code
-- Design reliable systems
-- Build secure applications
-- Understand scalability
-- Debug production issues
-- Optimise performance
-- Make sound engineering decisions
-
-The strongest backend engineers are not defined by the number of frameworks they know. They are defined by their ability to **solve real-world problems, design reliable systems, and make sound engineering decisions**.
+**Consistency over shortcuts. Fundamentals over memorisation. Engineering over simply writing code.**
 
 ---
 
 <div align="center">
 
-# ☕ Java Backend Developer Learning
+### ☕ Java Software Engineer
 
-**Programming Fundamentals — Sprint 1 / Sprint 6**
+**Learn • Practise • Build • Improve**
 
-⬜ **Not Completed**
+*One concept at a time. One step closer to becoming a better software engineer.*
 
 </div>
