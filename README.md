@@ -40,8 +40,8 @@ This phase builds the foundation required for Java development and future backen
 - [x] Arrays and ArrayList
 - [x] Strings, StringBuilder and StringBuffer
 - [x] Object-Oriented Programming (OOP)
-- [ ] File Handling
-- [ ] Collections Framework
+- [x] File Handling
+- [x] Collections Framework
 - [ ] Stream API (Java)
 - [ ] Threads (Java)
 - [ ] Internals of Java
@@ -84,6 +84,7 @@ The detailed topic checklist will be maintained here once the topics are provide
 
 These concepts help me understand what happens behind the code and how applications execute.
 
+- [ ] DBMS
 - [ ] Operating Systems
 - [ ] Computer Networks
 - [ ] Memory Management
