@@ -16,6 +16,9 @@ Java-OOPs-interview-concepts/
     │   └── abstraction/                       -> abstract classes
     ├── interfaces/                            -> interface basics, extends, default/static, nested
     └── object_class/                          -> Object methods, equals/hashCode, clone (shallow/deep)
+    | `relationship_and_behavior/` | How classes and objects interact: Association, Aggregation, Composition |
+    | `solid_principles/` | The 5 SOLID design principles (SRP, OCP, LSP, ISP, DIP) |
+    | `object_lifecycle_and_gc/` | Object creation, references, garbage collection, memory leaks |
 ```
 
 | Folder | README |
