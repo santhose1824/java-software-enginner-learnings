@@ -1,0 +1,35 @@
+classDiagram
+direction TB
+class Main {
+  +main(args String[])$ void
+}
+class BookingFacade {
+  ~Payment payment
+  ~SeatReservation seatReservation
+  ~Notification notification
+  ~LoyaltyPoints loyaltyPoints
+  ~TicketBooking ticketBooking
+  +BookingFacade()
+  +bookTicket(accountId String, movieId String, emailId String, seatNumber String, points int, amount double) void
+}
+class Payment {
+  +makePayment(accountId String, amount double) void
+}
+class SeatReservation {
+  +reserveSeat(seatNumber String) void
+}
+class Notification {
+  +sendBookingConfirmation(emailId String) void
+}
+class LoyaltyPoints {
+  +addPoints(accountId String, points int) void
+}
+class TicketBooking {
+  +generateTicket(movieId String, seatNumber String) void
+}
+Main ..> BookingFacade
+BookingFacade *-- Payment
+BookingFacade *-- SeatReservation
+BookingFacade *-- Notification
+BookingFacade *-- LoyaltyPoints
+BookingFacade *-- TicketBooking

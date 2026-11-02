@@ -1,0 +1,17 @@
+classDiagram
+direction LR
+class JudgeAnalytics {
+  -int run
+  -int submit
+  -JudgeAnalytics()
+  +getInstance()$ JudgeAnalytics
+  +countRun() void
+  +countSubmit() void
+}
+class Holder {
+  <<static nested class>>
+  -judgeAnalytics JudgeAnalytics$
+}
+JudgeAnalytics *-- Holder : nested in
+Holder ..> JudgeAnalytics : creates the single instance
+JudgeAnalytics ..> Holder : getInstance() reads from

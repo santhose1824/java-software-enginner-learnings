@@ -1,0 +1,29 @@
+classDiagram
+direction TB
+class Cart {
+  <<interface>>
+  +getPrice() double
+  +display(indent String) void
+}
+class Product {
+  -String productName
+  -double price
+  +Product(productName String, price double)
+  +getPrice() double
+  +display(indent String) void
+}
+class ProductBundle {
+  -String bundleName
+  -List~Cart~ products
+  +ProductBundle(bundleName String)
+  +addProduct(product Cart) void
+  +getPrice() double
+  +display(indent String) void
+}
+class Main {
+  +main(args String[])$ void
+}
+Product ..|> Cart : leaf
+ProductBundle ..|> Cart : composite
+ProductBundle o-- Cart : contains 0..*
+Main ..> Cart

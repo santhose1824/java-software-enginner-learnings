@@ -1,0 +1,34 @@
+classDiagram
+direction TB
+class Delivery {
+  <<interface>>
+  +sendDelivery() void
+}
+class Air {
+  +sendDelivery() void
+}
+class Road {
+  +sendDelivery() void
+}
+class Train {
+  +sendDelivery() void
+}
+class DeliveryFactory {
+  +sendDelivery(mode String)$ Delivery
+}
+class DeliveryService {
+  +send(mode String) void
+}
+class Main {
+  +main(args String[])$ void
+}
+Air ..|> Delivery
+Road ..|> Delivery
+Train ..|> Delivery
+DeliveryFactory ..> Air : creates
+DeliveryFactory ..> Road : creates
+DeliveryFactory ..> Train : creates
+DeliveryFactory ..> Delivery : returns
+DeliveryService ..> DeliveryFactory : asks for a Delivery
+DeliveryService ..> Delivery : uses
+Main ..> DeliveryService

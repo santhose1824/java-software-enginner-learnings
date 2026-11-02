@@ -1,0 +1,40 @@
+classDiagram
+direction TB
+class Pizza {
+  <<interface>>
+  +getDescription() String
+  +getPrice() double
+}
+class NormalPizza {
+  +getDescription() String
+  +getPrice() double
+}
+class ChickenPizza {
+  +getDescription() String
+  +getPrice() double
+}
+class PizzaDecorator {
+  <<abstract>>
+  #Pizza pizza
+  +PizzaDecorator(pizza Pizza)
+}
+class ExtraCheese {
+  +ExtraCheese(pizza Pizza)
+  +getDescription() String
+  +getPrice() double
+}
+class MozzarellaCheese {
+  +MozzarellaCheese(pizza Pizza)
+  +getDescription() String
+  +getPrice() double
+}
+class Main {
+  +main(args String[])$ void
+}
+NormalPizza ..|> Pizza
+ChickenPizza ..|> Pizza
+PizzaDecorator ..|> Pizza
+PizzaDecorator o-- Pizza : wraps (has-a)
+ExtraCheese --|> PizzaDecorator
+MozzarellaCheese --|> PizzaDecorator
+Main ..> Pizza

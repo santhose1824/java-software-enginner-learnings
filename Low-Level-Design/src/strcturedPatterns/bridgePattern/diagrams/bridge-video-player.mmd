@@ -1,0 +1,38 @@
+classDiagram
+direction TB
+class Main {
+  +main(args String[])$ void
+}
+class VideoQuality {
+  <<interface>>
+  +play(title String) void
+}
+class VideoPlayer {
+  <<abstract>>
+  #VideoQuality videoQuality
+  +VideoPlayer(videoQuality VideoQuality)
+  +play(title String)* void
+}
+class WebPlayer {
+  +WebPlayer(videoQuality VideoQuality)
+  +play(title String) void
+}
+class HDQuality {
+  +play(title String) void
+}
+class SDQuality {
+  +play(title String) void
+}
+class UltraHDQuality {
+  +play(title String) void
+}
+VideoPlayer ..|> VideoQuality
+WebPlayer --|> VideoPlayer
+HDQuality ..|> VideoQuality
+SDQuality ..|> VideoQuality
+UltraHDQuality ..|> VideoQuality
+VideoPlayer o-- VideoQuality : bridge (has-a)
+Main ..> WebPlayer
+Main ..> HDQuality
+Main ..> SDQuality
+Main ..> UltraHDQuality

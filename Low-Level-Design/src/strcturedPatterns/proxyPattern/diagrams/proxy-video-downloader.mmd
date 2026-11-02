@@ -1,0 +1,22 @@
+classDiagram
+direction TB
+class Main {
+  +main(args String[])$ void
+}
+class VideoDownload {
+  <<interface>>
+  +downloadVideo(url String) String
+}
+class VideoDownloader {
+  +downloadVideo(url String) String
+}
+class CachedVideoDownloader {
+  -VideoDownloader videoDownloader
+  -Map~String,String~ cache
+  +CachedVideoDownloader()
+  +downloadVideo(url String) String
+}
+VideoDownloader ..|> VideoDownload : real subject
+CachedVideoDownloader ..|> VideoDownload : proxy
+CachedVideoDownloader *-- VideoDownloader : delegates to
+Main ..> VideoDownload

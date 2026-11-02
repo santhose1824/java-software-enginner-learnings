@@ -1,0 +1,69 @@
+classDiagram
+direction TB
+class CountryFactory {
+  <<interface>>
+  +createPaymentGateway(type String) PaymentGateway
+  +crateInvoice() Invoice
+}
+class IndianPaymentProcess {
+  +createPaymentGateway(type String) PaymentGateway
+  +crateInvoice() Invoice
+}
+class USPaymentProcess {
+  +createPaymentGateway(type String) PaymentGateway
+  +crateInvoice() Invoice
+}
+class PaymentGateway {
+  <<interface>>
+  +paymentProcess() void
+}
+class Invoice {
+  <<interface>>
+  +invoiceGenerate() void
+}
+class RazorPay {
+  +paymentProcess() void
+}
+class PayU {
+  +paymentProcess() void
+}
+class Stripe {
+  +paymentProcess() void
+}
+class PayPal {
+  +paymentProcess() void
+}
+class GST {
+  +invoiceGenerate() void
+}
+class USInvoice {
+  +invoiceGenerate() void
+}
+class CheckoutService {
+  -PaymentGateway paymentGateway
+  -Invoice invoice
+  -String type
+  +CheckoutService(countryFactory CountryFactory, type String)
+  +completePayment() void
+}
+class Main {
+  +main(args String[])$ void
+}
+IndianPaymentProcess ..|> CountryFactory
+USPaymentProcess ..|> CountryFactory
+RazorPay ..|> PaymentGateway
+PayU ..|> PaymentGateway
+Stripe ..|> PaymentGateway
+PayPal ..|> PaymentGateway
+GST ..|> Invoice
+USInvoice ..|> Invoice
+IndianPaymentProcess ..> RazorPay : creates
+IndianPaymentProcess ..> PayU : creates
+IndianPaymentProcess ..> GST : creates
+USPaymentProcess ..> Stripe : creates
+USPaymentProcess ..> PayPal : creates
+USPaymentProcess ..> USInvoice : creates
+CheckoutService ..> CountryFactory : depends on
+CheckoutService --> PaymentGateway : uses
+CheckoutService --> Invoice : uses
+Main ..> CheckoutService

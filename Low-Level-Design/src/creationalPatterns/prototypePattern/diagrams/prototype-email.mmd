@@ -1,0 +1,34 @@
+classDiagram
+direction TB
+class Cloneable {
+  <<interface>>
+}
+class EmailTemplates {
+  <<interface>>
+  +clone() EmailTemplates
+  +setContent(content String) void
+  +setSubject(subject String) void
+  +send(to String) void
+}
+class WelcomeEmail {
+  -String subject
+  -String content
+  +WelcomeEmail()
+  +clone() WelcomeEmail
+  +setContent(content String) void
+  +setSubject(subject String) void
+  +send(to String) void
+}
+class EmailRegistry {
+  -Map~String,EmailTemplates~ emailTemplates$
+  +getEmailTemplate(type String)$ EmailTemplates
+}
+class Main {
+  +main(args String[])$ void
+}
+EmailTemplates --|> Cloneable
+WelcomeEmail ..|> EmailTemplates
+EmailRegistry o-- EmailTemplates : stores prototypes
+EmailRegistry ..> WelcomeEmail : registers "welcome"
+EmailRegistry ..> EmailTemplates : returns clone()
+Main ..> EmailRegistry

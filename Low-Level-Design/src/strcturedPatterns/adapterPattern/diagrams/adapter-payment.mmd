@@ -1,0 +1,30 @@
+classDiagram
+direction TB
+class Main {
+  +main(args String[])$ void
+}
+class CheckoutService {
+  -PaymentGateway paymentGateway
+  +CheckoutService(paymentGateway PaymentGateway)
+  +checkout(orderId String, amount double) void
+}
+class PaymentGateway {
+  <<interface>>
+  +pay(orderId String, amount double) void
+}
+class PayU {
+  +pay(orderId String, amount double) void
+}
+class RazorPayAdapter {
+  -RazorPayApi api
+  +RazorPayAdapter()
+  +pay(orderId String, amount double) void
+}
+class RazorPayApi {
+  +makePayment(invoiceId String, amount double) void
+}
+Main ..> CheckoutService
+CheckoutService --> PaymentGateway : uses
+PayU ..|> PaymentGateway
+RazorPayAdapter ..|> PaymentGateway
+RazorPayAdapter --> RazorPayApi : adapts (delegates to)

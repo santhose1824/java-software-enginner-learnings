@@ -5,13 +5,14 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Backend Engineering](https://img.shields.io/badge/Backend-Engineering-0A66C2?style=for-the-badge)
 ![DSA](https://img.shields.io/badge/DSA-Learning-6C3483?style=for-the-badge)
+![LLD](https://img.shields.io/badge/Low%20Level%20Design-In%20Progress-2E8B57?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Learning-In%20Progress-orange?style=for-the-badge)
 
 ---
 
 ## 🎯 Learning Objective
 
-This repository documents my journey toward becoming a **Java Software Engineer**, with a strong foundation in programming, Data Structures and Algorithms (DSA), backend development, system design, and production engineering.
+This repository documents my journey toward becoming a **Java Software Engineer**, with a strong foundation in programming, Data Structures and Algorithms (DSA), backend development, low-level design, and production engineering.
 
 My learning path follows this progression:
 
@@ -19,7 +20,7 @@ My learning path follows this progression:
 2. **Data Structures and Algorithms** — Develop problem-solving and algorithmic thinking.
 3. **Computer Science Fundamentals** — Understand operating systems, networking, and memory management.
 4. **Java Backend Development** — Learn JDBC, Spring Boot, and backend engineering.
-5. **Advanced Backend Concepts** — Explore asynchronous processing, caching, API design, and system design.
+5. **Advanced Backend Concepts** — Explore asynchronous processing, caching, API design, and low-level design.
 6. **DevOps and Cloud** — Learn deployment, infrastructure, containers, and cloud services.
 
 The goal is to understand concepts deeply, write clean and maintainable code, solve problems independently, and develop reliable backend applications.
@@ -135,11 +136,11 @@ Understand how backend applications process tasks asynchronously, communicate th
 
 # 5. 🌐 Backend Engineering Concepts
 
-These topics help me understand how applications communicate, how APIs should be designed, and how larger systems are structured.
+These topics help me understand how applications communicate, how APIs should be designed, and how code is structured at the class level.
 
 - [ ] HTTP and Networking
 - [ ] REST API Design
-- [ ] System Design
+- [ ] Low-Level Design (LLD) — *in progress*
 
 ### HTTP and Networking
 
@@ -149,9 +150,19 @@ Understand HTTP requests and responses, methods, status codes, headers, HTTPS, a
 
 Learn resource-based API design, request and response structures, error handling, API validation, and maintainable endpoint design.
 
-### System Design
+### Low-Level Design (LLD)
 
-Learn how to reason about scalability, reliability, availability, performance, caching, load balancing, databases, and distributed systems.
+LLD is where code starts to take shape — the bridge between architecture and actual implementation. It is granular, implementation-focused, and applies Object-Oriented Programming principles. Code, class diagrams, notes and interview questions live in the **[Low-Level-Design](./Low-Level-Design/README.md)** folder.
+
+- [x] Introduction — LLD vs HLD, DRY / KISS / YAGNI
+- [x] SOLID Principles
+- [x] UML and Class Diagrams (notation and class relationships)
+- [x] Creational Patterns — Singleton, Factory, Abstract Factory, Builder, Prototype *(5 / 5)*
+- [x] Structural Patterns — Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy *(7 / 7)*
+- [ ] Behavioural Patterns — Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor *(0 / 11)*
+- [ ] Practise designing complete systems on my own
+
+**Learning Goal:** design classes and relationships cleanly, apply SOLID and design patterns, and explain design choices in interviews.
 
 ---
 
@@ -200,7 +211,7 @@ Understand cloud infrastructure and learn how to deploy, operate, and monitor ba
 | Data Structures and Algorithms | In Progress |
 | Computer Science Fundamentals | Not Completed |
 | Java Backend Development | Not Completed |
-| Backend Engineering Concepts | Not Completed |
+| Backend Engineering Concepts (incl. Low-Level Design) | In Progress |
 | DevOps and Engineering Tools | Not Completed |
 | Cloud Computing — AWS | Not Completed |
 

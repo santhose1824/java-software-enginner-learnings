@@ -1,0 +1,33 @@
+classDiagram
+direction TB
+class Main {
+  +main(args String[])$ void
+}
+class Forest {
+  -List~Tree~ trees
+  +plantTree(x int, y int, name String, color String, texture String) void
+  +draw() void
+}
+class Tree {
+  -int x
+  -int y
+  -TreeType type
+  +Tree(x int, y int, type TreeType)
+  +draw() void
+}
+class TreeType {
+  -String name
+  -String texture
+  -String color
+  +TreeType(name String, texture String, color String)
+  +draw(x int, y int) void
+}
+class ForestFactory {
+  ~Map~String,TreeType~ trees$
+  +getTree(name String, color String, texture String)$ TreeType
+}
+Main ..> Forest
+Forest o-- Tree : plants many
+Forest ..> ForestFactory : asks for TreeType
+Tree --> TreeType : shares (flyweight)
+ForestFactory o-- TreeType : caches by key

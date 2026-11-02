@@ -1,0 +1,18 @@
+classDiagram
+direction LR
+class JudgeAnalytics {
+  -int run
+  -int submit
+  -JudgeAnalytics judgeAnalytics$
+  -JudgeAnalytics()
+  +getInstance()$ JudgeAnalytics
+  +countRun() void
+  +countSubmit() void
+  +getRun() int
+  +getSubmit() int
+}
+class Main {
+  +main(args String[])$ void
+}
+Main ..> JudgeAnalytics : getInstance()
+JudgeAnalytics --> JudgeAnalytics : holds its only instance
