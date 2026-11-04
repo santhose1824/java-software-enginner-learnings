@@ -4,7 +4,7 @@
     {
       "label": "compile and run",
       "type": "shell",
-      "command": "cd ${fileDirname} && javac ${fileBasename} && java ${fileBasenameNoExtension} < input.txt > output.txt",
+      "command": "javac -d \"${workspaceFolder}\\out\" \"${file}\" && java -cp \"${workspaceFolder}\\out\" ${fileBasenameNoExtension} < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\"",
       "options": {
         "shell": {
           "executable": "cmd.exe",

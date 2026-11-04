@@ -1,0 +1,178 @@
+1)Given an array of integers nums and an integer target, find the smallest index (0 based indexing) where the target appears in the array. If the target is not found in the array, return -1
+
+Example 1:
+Input: nums = [2, 3, 4, 5, 3], target = 3
+
+Output: 1
+
+Explanation:
+
+The first occurence of 3 in nums is at index 1
+
+Example 2:
+Input: nums = [2, -4, 4, 0, 10], target = 6
+
+Output: -1
+
+Explanation:
+
+The value 6 does not occur in the array, hence output is -1
+
+2)Given an array of integers nums, return the value of the largest element in the array
+
+Example 1:
+Input: nums = [3, 3, 6, 1]
+
+Output: 6
+
+Explanation: The largest element in array is 6
+
+Example 2:
+Input: nums = [3, 3, 0, 99, -40]
+
+Output: 99
+
+Explanation: The largest element in array is 99
+
+3)Given an array of integers nums, return the second-largest element in the array. If the second-largest element does not exist, return -1.
+
+Example 1:
+Input: nums = [8, 8, 7, 6, 5]
+
+Output: 7
+
+Explanation:
+
+The largest value in nums is 8, the second largest is 7
+
+Example 2:
+Input: nums = [10, 10, 10, 10, 10]
+
+Output: -1
+
+Explanation:
+
+The only value in nums is 10, so there is no second largest value, thus -1 is returned
+
+4) Given a binary array nums, return the maximum number of consecutive 1s in the array.
+
+A binary array is an array that contains only 0s and 1s.
+
+Example 1:
+Input: nums = [1, 1, 0, 0, 1, 1, 1, 0]
+
+Output: 3
+
+Explanation:
+
+The maximum consecutive 1s are present from index 4 to index 6, amounting to 3 1s
+
+Example 2:
+Input: nums = [0, 0, 0, 0, 0, 0, 0, 0]
+
+Output: 0
+
+Explanation:
+
+No 1s are present in nums, thus we return 0
+
+5)Given an integer array nums, rotate the array to the left by one.
+
+Note: There is no need to return anything, just modify the given array.
+
+Example 1:
+Input: nums = [1, 2, 3, 4, 5]
+
+Output: [2, 3, 4, 5, 1]
+
+Explanation:
+
+Initially, nums = [1, 2, 3, 4, 5]
+
+Rotating once to left -> nums = [2, 3, 4, 5, 1]
+
+Example 2:
+Input: nums = [-1, 0, 3, 6]
+
+Output: [0, 3, 6, -1]
+
+Explanation:
+
+Initially, nums = [-1, 0, 3, 6]
+
+Rotating once to left -> nums = [0, 3, 6, -1]
+
+6)Given an integer array nums, move all the 0's to the end of the array. The relative order of the other elements must remain the same.
+
+This must be done in place, without making a copy of the array.
+
+Example 1:
+Input: nums = [0, 1, 4, 0, 5, 2]
+
+Output: [1, 4, 5, 2, 0, 0]
+
+Explanation:
+
+Both the zeroes are moved to the end and the order of the other elements stay the same
+
+Example 2:
+Input: nums = [0, 0, 0, 1, 3, -2]
+
+Output: [1, 3, -2, 0, 0, 0]
+
+Explanation:
+
+All 3 zeroes are moved to the end and the order of the other elements stay the same
+
+7) Given an integer array nums sorted in non-decreasing order, remove all duplicates in-place so that each unique element appears only once.
+
+Return the number of unique elements in the array.
+
+If the number of unique elements be k, then,
+
+Change the array nums such that the first k elements of nums contain the unique values in the order that they were present originally.
+The remaining elements, as well as the size of the array does not matter in terms of correctness.
+The driver code will assess correctness by printing and checking only the first k elements of the modified array.
+An array sorted in non-decreasing order is an array where every element to the right of an element is either equal to or greater in value than that element.
+
+Example 1:
+Input: nums = [0, 0, 3, 3, 5, 6]
+
+Output: 4
+
+Explanation:
+
+Resulting array = [0, 3, 5, 6, _, _]
+
+There are 4 distinct elements in nums and the elements marked as _ can have any value.
+
+Example 2:
+Input: nums = [-2, 2, 4, 4, 4, 4, 5, 5]
+
+Output: 4
+
+Explanation:
+
+Resulting array = [-2, 2, 4, 5, _, _, _, _]
+
+There are 4 distinct elements in nums and the elements marked as _ can have any value.
+
+8) Given an integer array of size n containing distinct values in the range from 0 to n (inclusive), return the only number missing from the array within this range.
+
+Example 1:
+Input: nums = [0, 2, 3, 1, 4]
+
+Output: 5
+
+Explanation:
+
+nums contains 0, 1, 2, 3, 4 thus leaving 5 as the only missing number in the range [0, 5]
+
+Example 2:
+Input: nums = [0, 1, 2, 4, 5, 6]
+
+Output: 3
+
+Explanation:
+
+nums contains 0, 1, 2, 4, 5, 6 thus leaving 3 as the only missing number in the range [0, 6]

@@ -1,0 +1,83 @@
+Easy  Patterns:
+
+Pattern 1:
+N = 4
+*****
+*****
+*****
+*****
+
+
+Pattern 2:
+N = 4
+*
+**
+***
+****
+
+
+Pattern 3:
+N= 3
+1
+12
+123
+
+
+Pattern 4:
+N = 4
+1
+22
+333
+4444
+
+
+Pattern 5:
+N = 5
+*****
+****
+***
+**
+*
+
+Pattern 6:
+N = 3
+1 2 3
+1 2
+1
+
+Medium Patterns :
+
+Pattern 7:
+N = 3
+    *
+  * * *
+* * * * *
+
+
+Pattern 8:
+N = 3
+* * * * *
+  * * *
+    *
+
+Pattern 9:
+    *
+  * * *
+  * * *
+    *
+
+Pattern 10:
+N = 4
+*
+**
+***
+****
+***
+**
+*
+
+Pattern 11 :
+N = 3
+1
+01
+101
