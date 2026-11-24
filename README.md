@@ -62,22 +62,134 @@ This phase builds the foundation required for Java development and future backen
 
 DSA is an essential part of my software engineering learning journey. This phase focuses on improving problem-solving skills, algorithmic thinking, and the ability to select efficient solutions.
 
-**Status:** In progress — detailed topics will be added as I provide them.
+**Status:** In progress — **81 problems solved in Java** across 9 topic areas. Code, notes and a per-problem README (question, brute force, optimal solution, pseudocode, and time/space complexity explained) live in the **[Data-Structures-And-Algorithm-(Java)](./Data-Structures-And-Algorithm-%28Java%29/)** folder. More topics will be added as I learn them.
 
 ### Learning Approach
 
 - Understand the problem before coding.
-- Start with a straightforward solution.
+- Start with a straightforward (brute force) solution.
 - Identify suitable data structures and algorithms.
 - Improve the solution when possible.
-- Analyse time and space complexity.
+- Analyse time and space complexity — and be able to explain *why* it is O(n), O(n²), O(log n), etc.
+- Explain how the approach was reached, not just what it is.
 - Test edge cases.
 - Practise solving problems independently.
 - Revisit difficult problems and strengthen understanding.
 
 ### DSA Progress
 
-The detailed topic checklist will be maintained here once the topics are provided. No DSA topics are marked completed in advance.
+| # | Topic | Problems | Key Ideas Practised | Status |
+|---|---|:---:|---|:---:|
+| 1 | Logic Building — Patterns | 22 | Nested loops, row/column formulas, spaces + stars | ✅ |
+| 2 | Basic Maths | 13 | Digit extraction, GCD / LCM (Euclid), primes, √n optimisation, Sieve | ✅ |
+| 3 | Basic Arrays | 4 | Traversal, two pointers | ✅ |
+| 4 | Basic Hashing | 3 | HashMap, frequency counting | ✅ |
+| 5 | Basic Recursion | 10 | Base condition, call stack, head vs tail recursion | ✅ |
+| 6 | Basic Strings | 8 | Two pointers, frequency arrays, string rotation, custom comparators | ✅ |
+| 7 | Sorting Algorithms | 7 | Selection, Bubble, Insertion, Merge, Quick, recursive Bubble and Insertion | ✅ |
+| 8 | Arrays — Easy | 8 | Linear search, max / second max, two pointers, XOR trick | ✅ |
+| 9 | Arrays — Medium | 6 | Array rotation (reversal), merge with two pointers, Moore's Voting, leaders | ✅ |
+| | **Total** | **81** | | |
+
+<details>
+<summary><b>📂 Problem checklist (click to expand)</b></summary>
+
+#### 1. Logic Building — Patterns (22)
+- [x] Easy / Medium — Patterns 1 to 11 (square, triangles, number triangles, pyramid, inverted pyramid, diamond, half diamond, alternating 1/0)
+- [x] Harder — Patterns 12 to 22 (mirrored numbers, Floyd's triangle, alphabet triangles and pyramid, butterflies, hollow square, concentric squares)
+
+#### 2. Basic Maths (13)
+- [x] Count Digits
+- [x] Count Odd Digits
+- [x] Reverse a Number
+- [x] Palindrome Number
+- [x] Largest Digit in a Number
+- [x] Factorial
+- [x] Armstrong Number
+- [x] Perfect Number
+- [x] Prime Number Check
+- [x] Count Primes up to N
+- [x] GCD of Two Numbers
+- [x] LCM of Two Numbers
+- [x] Divisors of a Number
+
+#### 3. Basic Arrays (4)
+- [x] Sum of Array Elements
+- [x] Count Odd Numbers in an Array
+- [x] Check if Array is Sorted
+- [x] Reverse an Array
+
+#### 4. Basic Hashing (3)
+- [x] Highest Occurring Element
+- [x] Second Highest Occurring Element
+- [x] Sum of Highest and Lowest Frequency
+
+#### 5. Basic Recursion (10)
+- [x] Sum of First N Numbers
+- [x] Factorial
+- [x] Sum of Array Elements
+- [x] Reverse a String
+- [x] String Palindrome
+- [x] Prime Number
+- [x] Reverse an Array
+- [x] Check if Array is Sorted
+- [x] Sum of Digits (Digital Root)
+- [x] Fibonacci Number
+
+#### 6. Basic Strings (8)
+- [x] Reverse a String
+- [x] Palindrome String
+- [x] Largest Odd Number in a String
+- [x] Longest Common Prefix
+- [x] Isomorphic Strings
+- [x] Rotate String
+- [x] Valid Anagram
+- [x] Sort Characters by Frequency
+
+#### 7. Sorting Algorithms (7)
+- [x] Selection Sort
+- [x] Bubble Sort
+- [x] Insertion Sort
+- [x] Merge Sort
+- [x] Quick Sort
+- [x] Recursive Bubble Sort
+- [x] Recursive Insertion Sort
+
+#### 8. Arrays — Easy (8)
+- [x] Linear Search
+- [x] Largest Element
+- [x] Second Largest Element
+- [x] Maximum Consecutive Ones
+- [x] Left Rotate by One
+- [x] Move Zeros to End
+- [x] Remove Duplicates from Sorted Array
+- [x] Find the Missing Number
+
+#### 9. Arrays — Medium (6)
+- [x] Left Rotate Array by K Places
+- [x] Union of Two Sorted Arrays
+- [x] Intersection of Two Sorted Arrays
+- [x] Majority Element (> n/2)
+- [x] Leaders in an Array
+- [x] Rearrange Array Elements by Sign
+
+</details>
+
+### Complexity Cheat-Sheet (from the problems above)
+
+| Complexity | Where it came from |
+|---|---|
+| **O(1)** | Formula-based answers (Sum of N, digital root, LCM from GCD) |
+| **O(log n)** | Dividing by 10 per digit, Euclid's GCD (the number shrinks by half every two steps) |
+| **O(√n)** | Prime / perfect number / divisors — divisors come in pairs, so stop at √n |
+| **O(n)** | One pass over the data — most array, string and hashing problems |
+| **O(n log n)** | Merge Sort (log n levels × n work per level), Quick Sort (average), sorting-based approaches |
+| **O(n²)** | Nested loops — brute-force array problems, Bubble / Selection / Insertion Sort, all patterns |
+| **O(2ⁿ)** | Naive recursive Fibonacci (each call branches into two) |
+
+### What's Next in DSA
+
+More topics will be added here as I learn them. No topic is marked completed in advance.
 
 ---
 
@@ -208,7 +320,7 @@ Understand cloud infrastructure and learn how to deploy, operate, and monitor ba
 | Learning Area | Status |
 |---|---|
 | Java Programming Fundamentals | In Progress |
-| Data Structures and Algorithms | In Progress |
+| Data Structures and Algorithms | In Progress — 81 problems solved (9 topic areas) |
 | Computer Science Fundamentals | Not Completed |
 | Java Backend Development | Not Completed |
 | Backend Engineering Concepts (incl. Low-Level Design) | In Progress |
