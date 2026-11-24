@@ -1,0 +1,247 @@
+1)A monkey is given n piles of bananas, where the 'ith' pile has nums[i] bananas. An integer h represents the total time in hours to eat all the bananas.
+
+Each hour, the monkey chooses a non-empty pile of bananas and eats k bananas. If the pile contains fewer than k bananas, the monkey eats all the bananas in that pile and does not consume any more bananas in that hour.
+
+Determine the minimum number of bananas the monkey must eat per hour to finish all the bananas within h hours.
+
+Example 1:
+Input: n = 4, nums = [7, 15, 6, 3], h = 8
+
+Output: 5
+
+Explanation: If Koko eats 5 bananas/hr, he will take 2, 3, 2, and 1 hour to eat the piles accordingly. So, he will take 8 hours to complete all the piles. 
+
+Input: n = 5, nums = [25, 12, 8, 14, 19], h = 5
+
+Output: 25
+
+Explanation: If Koko eats 25 bananas/hr, he will take 1, 1, 1, 1, and 1 hour to eat the piles accordingly. So, he will take 5 hours to complete all the piles.
+
+2)Given n roses and an array nums where nums[i] denotes that the 'ith' rose will bloom on the nums[i]th day, only adjacent bloomed roses can be picked to make a bouquet. Exactly k adjacent bloomed roses are required to make a single bouquet. Find the minimum number of days required to make at least m bouquets, each containing k roses. Return -1 if it is not possible.
+
+Example 1:
+Input: n = 8, nums = [7, 7, 7, 7, 13, 11, 12, 7], m = 2, k = 3
+
+Output: 12
+
+Explanation: On the 12th the first 4 flowers and the last 3 flowers would have already bloomed. So, we can easily make 2 bouquets, one with the first 3 and another with the last 3 flowers.
+
+Example 2:
+Input: n = 5, nums = [1, 10, 3, 10, 2], m = 3, k = 2
+
+Output: -1
+
+Explanation: If we want to make 3 bouquets of 2 flowers each, we need at least 6 flowers. But we are given only 5 flowers, so, we cannot make the bouquets.
+
+3)You are given an array weights where weights[i] represents the weight of the i-th package on a conveyor belt. All the packages must be shipped in the order given from one port to another within days days.
+
+Each day, the ship can carry a contiguous sequence of packages, as long as the total weight does not exceed its maximum capacity.
+
+Your task is to find the minimum possible capacity of the ship so that all packages can be shipped within the given number of days.
+
+Example 1:
+Input: weights = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], days = 5
+
+Output: 15
+
+Explanation:
+
+Minimum ship capacity = 15. One way to ship in 5 days:
+
+Day 1: 1 + 2 + 3 + 4 + 5 = 15
+Day 2: 6 + 7 = 13
+Day 3: 8
+Day 4: 9
+Day 5: 10
+No day exceeds capacity 15 and all packages are shipped in order in 5 days.
+
+Example 2:
+Input: weights = [3, 2, 2, 4, 1, 4], days = 3
+
+Output: 6
+
+Explanation:
+
+One possible division with capacity 6:
+
+Day 1: 3 + 2 = 5
+Day 2: 2 + 4 = 6
+Day 3: 1 + 4 = 5
+All packages shipped in order within 3 days.
+
+4)Given a sorted array of unique positive integers arr, your task is to return the kᵗʰ missing positive number that is not present in arr.
+
+The array is guaranteed to be strictly increasing, and the missing numbers are those positive integers that do not appear in arr but would appear in a full sequence starting from 1.
+
+Example 1:
+Input: arr = [3, 5, 7, 10], k = 6
+
+Output: 9
+
+Explanation:
+
+The missing numbers are [1, 2, 4, 6, 8, 9, 11, ...]. The 6ᵗʰ missing number is 9.
+
+Example 2:
+Input: arr = [1, 4, 6, 8, 9], k = 3
+
+Output: 5
+
+Explanation:
+
+The missing numbers are [2, 3, 5, 7, 10, ...]. The 3ʳᵈ missing number is 5.
+
+
+5)You are given A painters and an array C of N integers where C[i] denotes the length of the ith board. Each painter takes B units of time to paint 1 unit of board. You must assign boards to painters such that:
+
+Each painter paints only contiguous segments of boards.
+No board can be split between painters.
+The goal is to minimize the time to paint all boards.
+Return the minimum time required to paint all boards modulo 10000003.
+
+Example 1:
+Input: A = 2, B = 5, C = [1, 10]
+
+Output: 50
+
+Explanation:
+
+Painter 1 paints board 0 (length = 1), time = 5
+Painter 2 paints board 1 (length = 10), time = 50
+Max time = 50
+Return 50 % 10000003 = 50
+Example 2:
+Input: A = 10, B = 1, C = [1, 8, 11, 3]
+
+Output: 11
+
+Explanation:
+
+Assign each board to a different painter
+Max time = max(1, 8, 11, 3) = 11
+Return 11 % 10000003 = 11
+
+6)Given an array nums of size n, which denotes the positions of stalls, and an integer k, which denotes the number of aggressive cows, assign stalls to k cows such that the minimum distance between any two cows is the maximum possible. Find the maximum possible minimum distance.
+
+Example 1:
+Input: n = 6, k = 4, nums = [0, 3, 4, 7, 10, 9]
+
+Output: 3
+
+Explanation:
+
+The maximum possible minimum distance between any two cows will be 3 when 4 cows are placed at positions [0, 3, 7, 10]. Here the distances between cows are 3, 4, and 3 respectively.
+
+In no manner can we increase the minimum distance beyond 3.
+
+Example 2:
+Input : n = 5, k = 2, nums = [4, 2, 1, 3, 6]
+Output: 5
+
+Explanation: The maximum possible minimum distance between any two cows will be 5 when 2 cows are placed at positions [1, 6]. 
+
+
+7)Given an array nums of n integers, where nums[i] represents the number of pages in the i-th book, and an integer m representing the number of students, allocate all the books to the students so that each student gets at least one book, each book is allocated to only one student, and the allocation is contiguous.
+
+Allocate the books to m students in such a way that the maximum number of pages assigned to a student is minimized. If the allocation of books is not possible, return -1.
+
+Example 1:
+Input: nums = [12, 34, 67, 90], m=2
+
+Output: 113
+
+Explanation: The allocation of books will be 12, 34, 67 | 90. One student will get the first 3 books and the other will get the last one.
+
+Example 2:
+Input: nums = [25, 46, 28, 49, 24], m=4
+
+Output: 71
+
+Explanation: The allocation of books will be 25, 46 | 28 | 49 | 24.
+
+8)Given two sorted arrays arr1 and arr2 of size m and n respectively, return the median of the two sorted arrays.
+
+The median is defined as the middle value of a sorted list of numbers. In case the length of the list is even, the median is the average of the two middle elements.
+
+Example 1:
+Input: arr1 = [2, 4, 6], arr2 = [1, 3, 5]
+
+Output: 3.5
+
+Explanation: The array after merging arr1 and arr2 will be [ 1, 2, 3, 4, 5, 6 ]. As the length of the merged list is even, the median is the average of the two middle elements. Here two medians are 3 and 4. So the median will be the average of 3 and 4, which is 3.5.
+
+Example 2:
+Input: arr1 = [2, 4, 6], arr2 = [1, 3]
+
+Output: 3.0
+
+Explanation: The array after merging arr1 and arr2 will be [ 1, 2, 3, 4, 6 ]. The median is simply 3.
+
+9)Given two sorted arrays a and b of size m and n respectively. Find the kth element of the final sorted array.
+
+Example 1:
+Input: a = [2, 3, 6, 7, 9], b = [1, 4, 8, 10], k = 5
+
+Output: 6
+
+Explanation: The final sorted array would be [1, 2, 3, 4, 6, 7, 8, 9, 10]. The 5th element of this array is 6.
+
+Example 2:
+Input: a = [100, 112, 256, 349, 770], b = [72, 86, 113, 119, 265, 445, 892], k = 7
+
+Output: 256
+
+Explanation: Final sorted array is - [72, 86, 100, 112, 113, 119, 256, 265, 349, 445, 770, 892], 7th element of this array is 256.
+
+
+10)Given a sorted array arr of size n, containing integer positions of n gas stations on the X-axis, and an integer k, place k new gas stations on the X-axis.
+
+The new gas stations can be placed anywhere on the non-negative side of the X-axis, including non-integer positions.
+
+Let dist be the maximum distance between adjacent gas stations after adding the k new gas stations.
+
+Find the minimum value of dist.
+
+Your answer will be accepted if it is within 1e-6 of the true value.
+
+Example 1:
+Input: n = 10, arr = [1, 2, 3, 4, 5, 6 ,7, 8, 9, 10], k = 10
+
+Output: 0.50000
+
+Explanation:
+
+There are initially 10 gas stations from 1 to 10. We need to add 10 new gas stations.
+Place the new stations at: [1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5]
+The resulting positions are: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5]
+The maximum distance between adjacent gas stations is 0.5.
+Hence, the minimum possible value of dist is 0.5.
+Example 2:
+Input : n = 10, arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], k = 1
+
+Output: 1.00000
+
+Explanation:
+
+One of the possible ways to place 1 gas station is [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].
+New Gas Station is at 11.
+Thus the maximum difference between adjacent gas stations is still 1.
+Hence, the value of dist is 1.
+It can be shown that there is no possible way to add 1 gas station in such a way that the value of dist is lower than this. 
+
+
+11)Given an integer array a of size n and an integer k. Split the array a into k non-empty subarrays such that the largest sum of any subarray is minimized. Return the minimized largest sum of the split.
+
+Example 1:
+Input: a = [1, 2, 3, 4, 5], k = 3
+
+Output:6
+
+Explanation: There are many ways to split the array a[] into k consecutive subarrays. The best way to do this is to split the array a[] into [1, 2, 3], [4], and [5], where the largest sum among the three subarrays is only 6.
+
+Example 2:
+Input: a = [3,5,1], k = 3
+
+Output: 5
+
+Explanation: There is only one way to split the array a[] into 3 subarrays, i.e., [3], [5], and [1]. The largest sum among these subarrays is 5.

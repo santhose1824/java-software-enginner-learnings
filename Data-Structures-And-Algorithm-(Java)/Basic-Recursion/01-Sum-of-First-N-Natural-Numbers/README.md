@@ -73,3 +73,4 @@ No recursion, no extra storage.
 ## Corrections to your notes / code
 
 - Overflow: for N around 65,000 the sum no longer fits in `int`; use `long` (and `(long)N*(N+1)/2`).
+- This program is good to know basics of recursion in interviews use formla.

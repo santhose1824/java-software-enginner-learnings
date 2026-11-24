@@ -65,6 +65,35 @@ for p = 2 while p * p <= N:
 return number of true values in isPrime
 ```
 
+## Code
+
+```java
+
+ public static int countPrimes(int N) {
+        if (N < 2) return 0;
+
+        boolean[] isPrime = new boolean[N + 1];
+        Arrays.fill(isPrime, true);
+        isPrime[0] = false;
+        isPrime[1] = false;
+
+        for (int p = 2; (long) p * p <= N; p++) {
+            if (isPrime[p]) {
+                for (int m = p * p; m <= N; m += p) {
+                    isPrime[m] = false;
+                }
+            }
+        }
+
+        int count = 0;
+        for (boolean prime : isPrime) {
+            if (prime) count++;
+        }
+        return count;
+    }
+
+```
+
 ### Time & Space Complexity
 
 **Time: O(N log log N)**  
